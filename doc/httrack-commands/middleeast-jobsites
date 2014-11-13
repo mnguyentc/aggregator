@@ -1,0 +1,23 @@
+Bahrain
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=158;cat=" -O middle-east/bahrain/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=bahrain.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=158&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Jordan
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=238;cat=" -O middle-east/jordan/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=jordan.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=238&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Saudi Arabia
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=182;cat=" -O middle-east/saudiarabia/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=saudi-arabia.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=182&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Kuwait
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=170;cat=" -O middle-east/kuwait/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=kuwait.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=170&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Lebanon
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=237;cat=" -O middle-east/lebanon/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=lebanon.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=237&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Oman
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=178;cat=" -O middle-east/oman/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=oman.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=178&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Qatar
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=180;cat=" -O middle-east/qatar/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=qatar.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=180&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+UAE
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=192;cat=" -O middle-east/uae/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=uae.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=192&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v

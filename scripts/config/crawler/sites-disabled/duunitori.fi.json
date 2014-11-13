@@ -1,0 +1,5 @@
+{
+	"name":"duunitori.fi",
+	"interval":24,
+	"cmd":"httrack \"http://duunitori.fi/tyopaikat/\" \"-*duunitori.fi*\" \"+*duunitori.fi/tyopaikat/?page=*\" \"+*duunitori.fi/tyopaikat/tyo/*-*[0-9]\""
+}

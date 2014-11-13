@@ -1,0 +1,6 @@
+{
+	"require": {
+    		"nategood/commando": "*",
+    		"apache/log4php": "2.3.0"
+	}
+}

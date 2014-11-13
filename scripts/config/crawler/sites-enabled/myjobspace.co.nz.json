@@ -1,0 +1,5 @@
+{
+	"name":"myjobspace.co.nz",
+	"interval":24,
+	"cmd":"httrack \"http://myjobspace.co.nz/job_search\" \"-*myjobspace.co.nz*\" \"+*myjobspace.co.nz/search?page=*[0-9]\" \"+*myjobspace.co.nz/job/*[0-9]?title=*\""
+}

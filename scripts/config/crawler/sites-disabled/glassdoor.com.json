@@ -1,0 +1,5 @@
+{
+	"name":"glassdoor.com",
+	"interval":24,
+	"cmd":"httrack \"http://www.glassdoor.com/Jobs/jobs.htm\" \"-*glassdoor.com*\" \"+*glassdoor.com/Job/jobs-SRCH_IP*\" \"+*glassdoor.com/partner/jobListing.htm?pos=*\""
+}

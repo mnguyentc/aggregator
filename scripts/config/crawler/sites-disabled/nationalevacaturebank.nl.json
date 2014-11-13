@@ -1,0 +1,5 @@
+{
+	"name":"nationalevacaturebank.nl",
+	"interval":24,
+	"cmd":"httrack \"http://www.nationalevacaturebank.nl/vacature/zoeken/overzicht/wijzigingsdatum/query//distance/30/output/html/items_per_page/15/page/1/ignore_ids\" \"-*nationalevacaturebank.nl*\" \"+*nationalevacaturebank.nl/vacature/zoeken/overzicht/wijzigingsdatum/page/*[0-9]/query//distance/30/output/html/load_mode/results_page/items_per_page/15/ignore_ids//fetchDistances\" \"+*nationalevacaturebank.nl/vacature/*[0-9]/*\""
+}

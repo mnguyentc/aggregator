@@ -1,0 +1,5 @@
+{
+	"name":"monster.es",
+	"interval":24,
+	"cmd":"httrack \"http://buscartrabajo.monster.es/trabajos/?cy=es\" \"-*monster.es*\" \"+*buscartrabajo.monster.es/trabajos/?pg=*\" \"+*ofertas-empleo.monster.es/*\""
+}

@@ -1,0 +1,5 @@
+{
+	"name":"recruit.com.hk",
+	"interval":24,
+	"cmd":"httrack \"http://www.recruit.com.hk/jobseeker/\" \"-*recruit.com.hk*\" \"+*recruit.com.hk/jobseeker/JobSearchResult.aspx?searchPath=*&jobCat=*\" \"+*recruit.com.hk/jobseeker/JobDetail.aspx?jobOrder=L*[0-9]\""
+}

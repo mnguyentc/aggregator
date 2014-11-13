@@ -1,0 +1,5 @@
+{
+	"name":"monster.hu",
+	"interval":24,
+	"cmd":"httrack \"http://allasok.monster.hu/allas/?cy=hu\" \"-*monster.hu*\" \"+*allasok.monster.hu/allas/?pg=*\" \"+*allas.monster.hu/*\""
+}

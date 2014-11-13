@@ -1,0 +1,5 @@
+{
+	"name":"monster.se",
+	"interval":24,
+	"cmd":"httrack \"http://jobb.monster.se/browse\" \"-*monster.se/*\" \"+*jobb.monster.se/browse/?pg=*\" \"+*annonsoversikt.monster.se/*\""
+}

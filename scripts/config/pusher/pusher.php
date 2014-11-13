@@ -1,0 +1,7 @@
+<?php
+
+return array(
+	'inputPath' => '/tmp/scraper/',
+	'url' => 'tcp://jobgo.com:61613',
+	'queue' => '/queue/jobgo-jrobot-jobs'
+);

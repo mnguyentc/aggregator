@@ -1,0 +1,5 @@
+{
+	"name":"jobbank.gc.ca",
+	"interval":24,
+	"cmd":"httrack \"http://www.jobbank.gc.ca/job_search_results.do?page=1&fter=P&fter=T&fter=S&fter=C&button.advanced_submit=Search&d=50&sort=M\" \"-*jobbank.gc.ca*\" \"+*jobbank.gc.ca/job_search_results.do?page=*[0-9]&fter=P&fter=T&fter=S&fter=C&button.advanced_submit=Search&d=50&sort=M\" \"+*jobbank.gc.ca/jobposting.do?page=*[0-9]&fter=P&fter=T&fter=S&fter=C&button.advanced_submit=Search&d=50&sort=M&id=*[0-9]&source=searchresults\""
+}

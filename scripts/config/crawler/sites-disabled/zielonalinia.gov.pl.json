@@ -1,0 +1,5 @@
+{
+	"name":"zielonalinia.gov.pl",
+	"interval":24,
+	"cmd":"httrack \"http://zielonalinia.gov.pl/zl/Search/Results?SelectedOccupation=&SelectedCity=&SelectedCountry=pl\" \"-*zielonalinia.gov.pl*\" \"+*zielonalinia.gov.pl/zl/Search/Results?SelectedCountry=pl&DateAdded=0&IncludeSynonyms=False&PageSize=20&page=*\" \"+*zielonalinia.gov.pl/zl/Search/Details?jobid=*[0-9]\" \"-s0\""
+}

@@ -1,0 +1,5 @@
+{
+	"name":"careerage.com",
+	"interval":24,
+	"cmd":"httrack \"http://www.careerage.com/search?field=&location=&DAYS=60&resultsby=date&page=1\" \"-*careerage.com*\" \"+*careerage.com/search?field=&location=&DAYS=60&resultsby=date&page=*[0-9]\" \"+*careerage.com/dispjob-*-*[0-9]-*[0-9].html\""
+}

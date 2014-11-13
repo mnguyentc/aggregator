@@ -1,0 +1,5 @@
+{
+	"name":"mojposao.net",
+	"interval":24,
+	"cmd":"httrack \"http://www.moj-posao.net/Pretraga-Poslova/?keyword=&category=&area=&published=&job_type=&professional_qualification=\" \"-*moj-posao.net*\" \"+*moj-posap.be/?keyword=&category=&area=&published=&job_type=&professional_qualification=&page=*\" \"+*moj-posao.net/Posao/*\" \"-*.jpg\""
+}

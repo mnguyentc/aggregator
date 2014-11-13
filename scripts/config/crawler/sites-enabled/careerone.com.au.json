@@ -1,0 +1,5 @@
+{
+	"name":"careerone.com.au",
+	"interval":24,
+	"cmd":"httrack \"http://www.careerone.com.au/job-search/australia/search?j_c=71&j_l=73&j_a=3560&where=australia\" \"-*careerone.com.au*\" \"+*careerone.com.au/job-search/australia/search/page*[0-9]?j_c=71&j_l=73&j_a=3560&where=australia\" \"+*jobview.careerone.com.au/*-*[0-9].aspx\""
+}

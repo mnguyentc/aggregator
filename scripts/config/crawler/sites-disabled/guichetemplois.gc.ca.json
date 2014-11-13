@@ -1,0 +1,5 @@
+{
+	"name":"guichetemplois.gc.ca",
+	"interval":24,
+	"cmd":"httrack \"http://www.guichetemplois.gc.ca/emploi_recherche_resultats.do?searchstring=&pcode=&fter=P&fter=T&fter=S&fter=C&button.advanced_submit=Recherche\" \"-*guichetemplois.gc.ca*\" \"+*guichetemplois.gc.ca/emploi_recherche_resultats.do?page=*[0-9]&fter=P&fter=T&fter=S&fter=C&button.advanced_submit=Search&d=50&sort=M\" \"+*guichetemplois.gc.ca/offredemploi.do?page=*[0-9]&fter=P&fter=T&fter=S&fter=C&button.advanced_submit=Search&d=50&sort=M&id=*[0-9]&source=searchresults\""
+}

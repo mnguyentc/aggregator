@@ -1,0 +1,5 @@
+{
+	"name":"poleemploi.fr",
+	"interval":24,
+	"cmd":"httrack \"https://candidat.pole-emploi.fr/candidat/rechercheoffres/resultats/A__FRANCE_01___P__________INDIFFERENT__________016____\" \"-*pole-emploi.fr*\" \"+*https://candidat.pole-emploi.fr/candidat/rechercheoffres/resultats/A__FRANCE_01___P__________INDIFFERENT__________016____#linksubmitaveccontexte\" \"+*https://candidat.pole-emploi.fr/candidat/rechercheoffres/resultats/A__FRANCE_01___P__________INDIFFERENT__________016____\" \"+*candidat.pole-emploi.fr/candidat/rechercheoffres/resultats.composantresultatrechercheoffre.tableauresultatrechercheoffre:detailoffre/*\" \"+*candidat.pole-emploi.fr/candidat/rechercheoffres/detail/*\""
+} 

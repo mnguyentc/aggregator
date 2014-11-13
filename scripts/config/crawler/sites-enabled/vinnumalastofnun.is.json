@@ -1,0 +1,5 @@
+{
+	"name":"vinnumalastofnun.is",
+	"interval":24,
+	"cmd":"httrack \"http://www.vinnumalastofnun.is/storf-i-bodi/\" \"-*vinnumalastofnun.is*\" \"+*vinnumalastofnun.is/storf-i-bodi/?pageno=*[0-9]&Query=&CountryPart=&Employment=&publication=-1\" \"+*vinnumalastofnun.is/storf-i-bodi/nr/*[0-9]/*\" \"-s0\""
+}

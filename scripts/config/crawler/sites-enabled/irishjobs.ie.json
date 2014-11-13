@@ -1,0 +1,5 @@
+{
+	"name":"irishjobs.ie",
+	"interval":24,
+	"cmd":"httrack \"http://www.irishjobs.ie/ShowResults.aspx?Keywords=&Location=0&Category=&Recruiter=Company&Recruiter=Agency\" \"-*irishjobs.ie*\" \"+*irishjobs.ie/ShowResults.aspx?Keywords=&Location=0&Category=&Recruiter=Company%2cAgency&Page=*[0-9]\" \"+*irishjobs.ie/Jobs/*-*[0-9].aspx\""
+}

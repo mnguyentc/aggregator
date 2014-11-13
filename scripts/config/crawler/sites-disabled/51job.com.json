@@ -1,0 +1,5 @@
+{
+	"name":"51job.com",
+	"interval":24,
+	"cmd":"httrack \"http://search.51job.com/list/%2B,%2B,%2B,%2B,%2B,%2B,a,2,%2B.html?lang=c&stype=1&image_x=34&image_y=24\" \"-*51job.com*\" \"+*search.51job.com/list/000000%252C00,000000,0000,00,9,99,a,2,*[0-9].html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=01&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&list_type=0&confirmdate=9\" \"+*search.51job.com/job/*.html\" \"-s0\""
+}

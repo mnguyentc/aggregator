@@ -1,0 +1,5 @@
+{
+	"name":"superjob.ru",
+	"interval":24,
+	"cmd":"httrack \"http://www.superjob.ru/vacancy/search/?sbmit=1&t[]=4&keywords[0][srws]=10&keywords[0][skwc]=and&keywords[0][keys]=&search_hesh=1653343353058665&main=1\" \"-*superjob.ru*\" \"+*superjob.ru/vacancy/search/?sbmit=1&t%5B0%5D=4&keywords%5B0%5D%5Bsrws%5D=10&keywords%5B0%5D%5Bskwc%5D=and&keywords%5B0%5D%5Bkeys%5D=&search_hesh=1653343353058665&main=1&page=*\" \"+*superjob.ru/rabota/vacancy-*.html?keys%5B0%5D=&skwc%5B0%5D=and&srws%5B0%5D=10\""
+}

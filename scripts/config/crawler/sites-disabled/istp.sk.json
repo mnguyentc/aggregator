@@ -1,0 +1,5 @@
+{
+	"name":"istp.sk",
+	"interval":24,
+	"cmd":"httrack \"https://istp.sk/vpm.php?zdroj%255B%255D=3&zdroj_meno%255B%255D=upsvar.sk&vyraz=&search_poziciu=&lokalita_zamestnania=-1&lokalita_zamestnania_fulltext=&select_vzdelanie=0&select_zdroj=3\" \"-*istp.sk*\" \"+*istp.sk/vpm.php?zdroj%5B%5D=3&zdroj_meno%5B%5D=upsvar.sk&vyraz=&search_poziciu=&lokalita_zamestnania=-1&lokalita_zamestnania_fulltext=&select_vzdelanie=0&select_zdroj=3&aktualna=*\" \"+*istp.sk/pracovna-ponuka/*[0-9]/*\" \"-*js*\" \"-*images*\" \"-*css*\" \"-*jscript*\" \"-*vpm_detail*\" \"-*vratPomocnika*\" \"-*zoznam_zamestnavatelov*\" \"-*vratZamestnavatela*\" \"-*podporte_istp*\" \"-*spolupracujuce_institucie*\" \"-*na_stiahnutie*\""
+}

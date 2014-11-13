@@ -1,0 +1,5 @@
+{
+	"name":"absolventa.de",
+	"interval":24,
+	"cmd":"httrack \"http://www.absolventa.de/stellenangebote?utf8=%E2%9C%93&query%5Btext%5D=&query%5Bcity%5D=\" \"-*absolventa.de*\" \"+*absolventa.de/stellenangebote?page=*\" \"+*absolventa.de/stellenangebote/*[0-9]-*\""
+}

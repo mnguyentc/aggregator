@@ -1,0 +1,5 @@
+{
+	"name":"metrojobb.se",
+	"interval":24,
+	"cmd":"httrack \"http://www.metrojobb.se/jobb/s%C3%B6k?e1=1&e1=2&e1=3&e1=4&pgSize=100\" \"-*metrojobb.se*\" \"+*metrojobb.se/jobb/s%C3%B6k?e1=1&e1=2&e1=3&e1=4&pgSize=100&page=*[0-9]\" \"+*metrojobb.se/jobad/*\" \"-*metrojobb.se/jobad/*/Templates/*\""
+}

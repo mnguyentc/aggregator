@@ -1,0 +1,5 @@
+{
+	"name":"zhaopin.com",
+	"interval":24,
+	"cmd":"httrack \"http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E5%8C%97%E4%BA%AC&sm=0&p=1\" \"-*zhaopin.com*\" \"+*sou.zhaopin.com/jobs/searchresult.ashx?jl=%e5%8c%97%e4%ba%ac&sm=0&sg=45dd0d9187474de1adeb9b5f3086097c&p=*\" \"+*jobs.zhaopin.com/*.htm?ssidkey=*\" \"-s0\""
+}

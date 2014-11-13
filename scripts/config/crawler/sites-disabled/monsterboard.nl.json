@@ -1,0 +1,5 @@
+{
+	"name":"monsterboard.nl",
+	"interval":24,
+	"cmd":"httrack \"http://jobsearch.monsterboard.nl/vacatures/?cy=nl\" \"-*monsterboard.nl*\" \"+*jobsearch.monsterboard.nl/vacatures/?pg=*\" \"+*vacature.monsterboard.nl/*\""
+}

@@ -1,0 +1,5 @@
+{
+	"name":"hh.ru",
+	"interval":24,
+	"cmd":"httrack \"http://hh.ru/search/vacancy?area=1&text=&specialization=&salary=&currency_code=RUR\" \"-*hh.ru*\" \"+*hh.ru/search/vacancy?clusters=true&area=1&page=*\" \"+*/vacancy/*[0-9]\""
+}

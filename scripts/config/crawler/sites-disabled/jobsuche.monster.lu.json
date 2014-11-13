@@ -1,0 +1,5 @@
+{
+	"name":"jobsuche.monster.lu",
+	"interval":24,
+	"cmd":"httrack \"http://jobsuche.monster.lu/Jobs/?cy=at\" \"-*monster.lu*\" \"+*jobsuche.monster.lu/Jobs/?pg=\" \"+*stellenanzeige.monster.lu/*\""
+}

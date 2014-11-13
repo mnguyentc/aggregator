@@ -1,0 +1,83 @@
+Russia 
+
+httrack "http://rabota.monsterrussia.ru/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/?cy=ru" -O asia/russia/monsterrussia.ru "-*.monsterrussia.ru/*" "+*rabota.monsterrussia.ru/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/?pg=*" "+*jobview.monsterrussia.ru/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v -s0
+
+httrack "http://www.job.ru/seeker/job/?rgnc=A1&srch=1" -O asia/russia/job.ru "-*job.ru*" "+*job.ru/seeker/job/?rgnc=A1&srch=1&p=*[0-9]" "+*job.ru/*/*[0-9]" -s0
+
+httrack "http://www.superjob.ru/vacancy/search/?sbmit=1&c[]=1&keywords[0][srws]=10&keywords[0][skwc]=and&keywords[0][keys]=&search_hesh=4572115448230056&main=1" -O asia/russia/superjob.ru "-*superjob.ru*" "+*superjob.ru/vacancy/search/?sbmit=1&t%5B0%5D=4&keywords%5B0%5D%5Bsrws%5D=10&keywords%5B0%5D%5Bskwc%5D=and&keywords%5B0%5D%5Bkeys%5D=&search_hesh=1653343353058665&main=1&page=*" "+*superjob.ru/rabota/vacancy-*.html?keys%5B0%5D=&skwc%5B0%5D=and&srws%5B0%5D=10" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v -s0
+
+httrack "http://hh.ru/search/vacancy?area=1&text=&specialization=&salary=&currency_code=RUR" -O asia/russia/hh.ru "-*hh.ru/*" "+*hh.ru/search/vacancy?clusters=true&area=1&page=*" "+*/vacancy/*[0-9]" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.rabota.ru/vacancy/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/" -O asia/russia/rabota.ru "-*rabota.ru*" "+*rabota.ru/vacancy/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/*[0-9].html" "+*rabota.ru/vacancy*[0-9].html?vac_page=view&w=*" -s0
+
+Australia
+httrack "http://www.careerone.com.au/job-search/australia/search?j_c=71&j_l=73&j_a=3560&where=australia" -O asia/australia/careerone.com.au "-*.careerone.com.au/*" "+*careerone.com.au/job-search/australia/search/page*[0-9]?j_c=71&j_l=73&j_a=3560&where=australia" "+*jobview.careerone.com.au/*-*[0-9].aspx" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://jobsearch.gov.au/jobs/search.aspx#search.aspx?%25255Bobject%252520Object%25255D&_suid=141111150403802759042475372553" -O asia/australia/jobsearch.gov.au "-*jobsearch.gov.au*" "+*jobsearch.gov.au/findajob/job.aspx?CurrId=*[0-9]" 0-s
+
+New Zealand
+
+httrack "http://www.maoripacificjobs.co.nz/" -O asia/newzealand/maoripacificjobs.co.nz "-*maoripacificjobs.co.nz/*" "+*maoripacificjobs.co.nz/page/*[0-9]" "+*maoripacificjobs.co.nz/jobs/*" -s0
+
+httrack "http://www.candle.co.nz/advancedSearch.aspx?widgetSearch=1&LoadAll=1" -O asia/newzealand/candle.co.nz "-*candle.co.nz/*" "+*candle.co.nz/advancedSearch.aspx?widgetSearch=1&LoadAll=1&page=*" "+*candle.co.nz/i-t--and-t-jobs/*" -s0
+
+httrack "http://myjobspace.co.nz/job_search" -O asia/newzealand/myjobspace.co.nz "-*myjobspace.co.nz*" "+*myjobspace.co.nz/search?page=*[0-9]" "+*myjobspace.co.nz/job/*[0-9]?title=*" -s0
+
+httrack "http://www.seek.co.nz/jobs/in-new-zealand/#dateRange=999&workType=0&industry=&occupation=&graduateSearch=false&salaryFrom=0&salaryTo=999999&salaryType=annual&advertiserID=&advertiserGroup=&keywords=&page=1&displaySuburb=&seoSuburb=&isAreaUnspecified=false&location=&area=&nation=3001&sortMode=ListedDate&searchFrom=quick&searchType=" -O asia/newzealand/seek.co.nz "-*seek.co.nz*" "+*seek.co.nz/jobs/in-new-zealand/#dateRange=999&workType=0&industry=&occupation=&graduateSearch=false&salaryFrom=0&salaryTo=999999&salaryType=annual&advertiserID=&advertiserGroup=&keywords=&page=*[0-9]&displaySuburb=&seoSuburb=&isAreaUnspecified=false&location=&area=&nation=3001&sortMode=ListedDate&searchFrom=quick&searchType=" "+*seek.co.nz/job/*[0-9]" -s0
+
+Hong Kong
+
+httrack "http://jobsearch.monster.com.hk/searchresult.html" -O asia/hongkong/monster.com.hk "-*.monster.com.hk/*" "+*jobsearch.monster.com.hk/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.com.hk%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.com.hk/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.recruit.com.hk/jobseeker/" -O asia/hongkong/recruit.com.hk "-*recruit.com.hk*" "+*recruit.com.hk/jobseeker/JobSearchResult.aspx?searchPath=*&jobCat=*" "+*recruit.com.hk/jobseeker/JobDetail.aspx?jobOrder=L*[0-9]" -s0
+
+India
+
+httrack "http://jobsearch.monsterindia.com/searchresult.html?cat=11" -O asia/india/monsterindia.com "-*.monsterindia.com/*" "+*jobsearch.monsterindia.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monsterindia.com%2Fcategory%2Fhr-recruitment.html&jbc=11&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=hr-recruitment.html&sim_job=&usn=&appsrc=&show_omit=&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monsterindia.com/details/*[0-9].html?sig=*" -s0
+
+httrack "http://www.hirist.com/registration/login.php" -O asia/india/hirist.com "-*hirist.com*" "+*hirist.com/c/*.html" "+*hirist.com/j/*-*[0-9].html?ref=cl" -s0
+
+httrack "http://search.clickjobs.com/jobs/list/l-india/fdb-1/" -O asia/india/clickjobs.com "-*clickjobs.com*" "+*search.clickjobs.com/jobs/list/l-india/fdb-1/pn-*[0-9]/" "+*search.clickjobs.com/jobs/preview/*[0-9]/*.html" -s0
+
+httrack "http://www.jobs-bank.com/jobs-search.php?kwoption=and&keywords=%20&newsearch=1&page=1&" -O asia/india/jobsbank.com "-*jobs-bank.com*" "+*jobs-bank.com/jobs-search.php?kwoption=and&keywords=%20&newsearch=1&page=*[0-9]&" "+*jobs-bank.com/jobdetails.php?jobid=*[0-9]" -s0
+
+httrack "http://www.careerage.com/search?field=&location=&DAYS=60&resultsby=date&page=1" -O asia/india/careerage.com "-*careerage.com*" "+*careerage.com/search?field=&location=&DAYS=60&resultsby=date&page=*[0-9]" "+*careerage.com/dispjob-*-*[0-9]-*[0-9].html"
+
+Indonesia
+httrack "http://jobsearch.monster.co.id/searchresult.html" -O asia/indonesia/monster.co.id "-*.monster.co.id/*" "+*jobsearch.monster.co.id/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.co.id%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.co.id&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.co.id/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Malaysia
+httrack "http://jobsearch.monster.com.my/searchresult.html" -O asia/malaysia/monster.com.my "-*.monster.com.my/*" "+*jobsearch.monster.com.my/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.com.my%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.com.my&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.com.my/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Philippines
+httrack "http://jobsearch.monster.com.ph/searchresult.html" -O asia/philippines/monster.com.ph "-*.monster.com.ph/*" "+*jobsearch.monster.com.ph/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.com.ph%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.com.ph&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.com.ph/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Singapore
+httrack "http://jobsearch.monster.com.sg/searchresult.html" -O asia/singapore/monster.com.sg "-*.monster.com.sg/*" "+*jobsearch.monster.com.sg/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.com.sg%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.com.sg&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.com.sg/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://sg.jobsdb.com/SG/EN/Search/FindJobs?KeyOpt=COMPLEX&JSRV=1&RLRSF=1&JobCat=1&JSSRC=HPAS" -O asia/singapore/jobsdb.com "-*jobsdb.com/*" "+*sg.jobsdb.com/SG/en/Search/FindJobs?AD=30&Blind=1&Host=J&JobCat=1&JSRV=1&page=*" "+*sg.jobsdb.com/SG/EN/Search/JobAdSingleDetail?jobsIdList=*" "-*follow*" "-*ac=add*" -v
+
+httrack "http://www.stjobs.sg/singapore-jobs" -O asia/singapore/stjobs.sg "-*stjobs.sg/*" "+*stjobs.sg/singapore-jobs/page*" "+*stjobs.sg/*/view-job/*" "-*follow*" "-*ac=add*" -v
+
+Thailand
+httrack "http://jobsearch.monster.co.th/searchresult.html" -O asia/thailand/monster.co.th "-*.monster.co.th/*" "+*jobsearch.monster.co.th/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.co.th%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.co.th&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.co.th/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://th.jobsdb.com/TH/EN/Search/FindJobs?KeyOpt=COMPLEX&JSRV=1&RLRSF=1&JobCat=1" -O asia/thailand/th.jobsdb.com "-*jobsdb.com*" "+*th.jobsdb.com/TH/en/Search/FindJobs?AD=30&Blind=1&Host=J&JobCat=1&JSRV=1&page=*[0-9]" "+*th.jobsdb.com/TH/EN/Search/JobAdSingleDetail?jobsIdList=*[0-9]&sr=1"
+
+httrack "http://www.jobthai.com/home/job_list.php?Type=NormalSearch&l=en&Region=All&ProvinceIIE=All&IIECode=All&JobType=All&SubJobType=&KeyWord=" -O asia/thailand/jobthai.com "-*jobthai.com*" "+*jobthai.com/job/*.html" "+*jobthai.com/home/job_list.php?Type=NormalSearch&l=en&Region=All&ProvinceIIE=All&IIECode=All&JobType=All&SubJobType=&KeyWord=&station[]=1&station[]=2&station[]=3&station[]=4&station[]=5&p=*" -s0
+
+Vietnam
+httrack "http://jobsearch.monster.com.vn/searchresult.html" -O asia/vietnam/monster.com.vn "-*.monster.com.vn/*" "+*jobsearch.monster.com.vn/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.co.th%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.com.vn&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*" "+*jobs.monster.com.vn/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://tuyendung.com.vn/timvieclam/jobresult.aspx" -O asia/vietnam/tuyendung.com.vn "-*tuyendung.com.vn/*" "+*tuyendung.com.vn/timvieclam/jobresult.aspx?page=*" "+*tuyendung.com.vn/timvieclam/*-*.aspx" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.vietnamworks.com/job-search/all-jobs" -O asia/vietnam/vietnamworks.com "-*vietnamworks.com/*" "+*vietnamworks.com/job-search/all-jobs/page-*" "+*vietnamworks.com/*-*-jd" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+China
+
+httrack "http://www.chinahr.com/so/0/0-0-0-0-0-0-0-0-0-0-0-0-0-0/p0" -O asia/china/chinahr.com "-*chinahr.com*" "+*chinahr.com/so/0/0-0-0-0-0-0-0-0-0-0-0-0-0-0/p*[0-9]" "+*chinahr.com/job/*.html"
+
+httrack "http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E5%8C%97%E4%BA%AC&sm=0&p=1" -O asia/china/zhaopin.com "-*zhaopin.com/*" "+*sou.zhaopin.com/jobs/searchresult.ashx?jl=%e5%8c%97%e4%ba%ac&sm=0&sg=45dd0d9187474de1adeb9b5f3086097c&p=*" "+*jobs.zhaopin.com/*.htm?ssidkey=*" -s0
+
+httrack "http://search.51job.com/list/%2B,%2B,%2B,%2B,%2B,%2B,a,2,%2B.html?lang=c&stype=1&image_x=34&image_y=24" -O asia/china/51job.com "-*51job.com/*" "+*search.51job.com/list/000000%252C00,000000,0000,00,9,99,a,2,*[0-9].html?lang=c&stype=1&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=01&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&list_type=0&confirmdate=9" "+*search.51job.com/job/*.html" -s0
+

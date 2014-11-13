@@ -1,0 +1,5 @@
+{
+	"name":"ofir.dk",
+	"interval":24,
+	"cmd":"httrack \"http://www.ofir.dk/Resultat.aspx\" \"-*ofir.dk*\" \"+*ofir.dk/Resultat.aspx?query=*\" \"+*ofir.dk/Resultat/*-*[0-9].aspx?jobId=*\""
+}

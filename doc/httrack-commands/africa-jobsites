@@ -1,0 +1,13 @@
+Egypt
+
+httrack "http://jobsearch.monstergulf.com/searchresult.html?loc=250;cat=" -O africa/egypt/monstergulf.com "-*.monstergulf.com/*" "+*jobsearch.monstergulf.com/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monstergulf.com%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=egypt.monstergulf.com&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&loc=250&lmy=&mne=&mxe=&srt=pst&n=*" "+*http://jobs.monstergulf.com/details/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+South Africa
+
+httrack "http://www.jobs.co.za/?s=job_search" -O africa/south-africa/jobs.co.za "-*jobs.co.za/*" "+*jobs.co.za/?s=job_search&ps=*" "+*jobs.co.za/index.php?dfpcat=Home_Leaderboard_728x90&s=advert_view&g=*" -v
+
+httrack "http://www.jobspace.co.za/job-search?query=&regions=" -O africa/south-africa/jobspace.co.za "-*jobspace.co.za/*" "+*jobspace.co.za/job-search?page=*" "+*jobspace.co.za/job/*" -v
+
+Nigeria
+
+httrack "http://www.2nigeria.com/job-search?query=&regions=" -O africa/nigeria/2nigeria.com "-*2nigeria.com/*" "+*2nigeria.com/jobs/-jobs/?page=*" "+*2nigeria.com/job/*" -v

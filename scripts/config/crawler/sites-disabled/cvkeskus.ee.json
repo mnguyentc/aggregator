@@ -1,0 +1,5 @@
+{
+	"name":"cvkeskus.ee",
+	"interval":24,
+	"cmd":"httrack \"http://www.cvkeskus.ee/joboffers.php?op=search&search_location=landingpage&sort=activation_date&dir=1&tmp_city=&tmp_category=&search%5Bkeyword%5D=&search%5Bexpires_days%5D=&search%5Bjob_lang%5D=&search%5Bjob_minimumpay%5D=&search%5Bjob_maximumpay%5D=&search%5Bjob_currency%5D=EUR&search%5Bpractise%5D=on&search%5Btemporary%5D=on&search%5Bpermanent%5D=on&search%5Bteenistuja%5D=on&search%5Bcontract%5D=on&search%5Bjob_fulltime%5D=on&search%5Bjob_parttime%5D=on\" \"-*cvkeskus.ee*\" \"+*cvkeskus.ee/joboffers.php?op=search&search_location=landingpage&sort=activation_date&dir=1&tmp_city=&tmp_category=&search%5Bkeyword%5D=&search%5Bexpires_days%5D=&search%5Bjob_lang%5D=&search%5Bjob_minimumpay%5D=&search%5Bjob_maximumpay%5D=&search%5Bjob_currency%5D=EUR&search%5Bpractise%5D=on&search%5Btemporary%5D=on&search%5Bpermanent%5D=on&search%5Bteenistuja%5D=on&search%5Bcontract%5D=on&search%5Bjob_fulltime%5D=on&search%5Bjob_parttime%5D=on&start=*\" \"+*cvkeskus.ee/view_jobad.php?job_id=*\" \"-s0\""
+}

@@ -1,0 +1,5 @@
+{
+	"name":"jobzonen.dk",
+	"interval":24,
+	"cmd":"httrack \"http://www.jobzonen.dk/s%C3%B8gjob/?countrycode=DK&Keywords=&radialtown=\" \"-*jobzonen.dk*\" \"+*jobzonen.dk/s%c3%b8gjob/?countrycode=DK&Page=*\" \"+*jobzonen.dk/job/*[0-9]/*\""
+}

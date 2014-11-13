@@ -1,0 +1,187 @@
+Finland
+
+httrack "http://www.mol.fi/tyopaikat/tyopaikkatiedotus/kevyt/hae.htm?lang=fi&tarkempiHaku=true&hakusana=a&alueetLista=&_alueetLista=1&valitutAmmattialat=&_valitutAmmattialat=1&ilmoitettuPvm=1&vuokrapaikka=---" -O europe/finland/mol.fi "-*mol.fi/*" "+*mol.fi/tyopaikat/tyopaikkatiedotus/kevyt/vaihdasivu.htm?sivu=*" "+*mol.fi/tyopaikat/tyopaikkatiedotus/kevyt/tiedot.htm?ilmoitusnumero=*" -v
+
+httrack "http://hae.monster.fi/ty%C3%B6paikkoja/?cy=fi" -O europe/finland/monster.fi "-*.monster.fi/*" "+*hae.monster.fi/työpaikkoja/?pg=*" "+*nayta.monster.fi/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "https://www.staffpoint.fi/avoimet-tyopaikat/" -O europe/finland/staffpoint.fi "-*staffpoint.fi/*” "+*staffpoint.fi/avoimet-tyopaikat/*” "-*follow*" "-*ac=add*" -v
+
+httrack "http://tyopaikat.oikotie.fi/" -O europe/finland/oikotie.fi "-*oikotie.fi/*" "+*oikotie.fi/avoimet-tyopaikat/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.uranus.fi/tyopaikat/luettelo" -O europe/finland/uranus.fi "-*uranus.fi/*" "+*uranus.fi/tyopaikat/luettelo?page=*" "+*uranus.fi/tyopaikat/nayta/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://duunitori.fi/tyopaikat/" -O europe/finland/duunitori.fi "-*duunitori.fi/*" "+*duunitori.fi/tyopaikat/?page=*" "+*duunitori.fi/tyopaikat/tyo/*-*[0-9]" "-*follow*" "-*ac=add*" -v
+
+httrack "http://www.glassdoor.com/Jobs/jobs.htm" -O europe/finland/glassdoor.com "-*glassdoor.com/*" "+*glassdoor.com/Job/jobs-SRCH_IP*" "+*glassdoor.com/partner/jobListing.htm?pos=*" "+*glassdoor.com/job-listing/*" "-*follow*" "-*ac=add*" -v
+
+UK
+httrack "http://jobsearch.monster.co.uk/jobs/?cy=uk" -O europe/uk/monster.co.uk "-*monster.co.uk/*" "+*jobsearch.monster.co.uk/jobs/?pg=*[0-9]&cy=uk" "-*jobsearch.monster.co.uk/jobs/?where=*" "+*jobview.monster.co.uk/*-*[0-9].aspx" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.fish4.co.uk/jobs/" -O europe/uk/fish4.co.uk "-*fish4.co.uk/*" "+*fish4.co.uk/jobs/*" "+*fish4.co.uk/job/*/*" "-*follow*" -v
+
+httrack "http://www.gaapweb.com/jobs/" -O europe/uk/gaapweb.com "-*gaapweb.com/*" "+*http://www.gaapweb.com/jobs/*[0-9]/" "+*gaapweb.com/job/*[0-9]/*" "-*follow*" -v
+
+httrack "http://www.cv-library.co.uk/cgi-bin/searchjobs.cgi?posted=28&search=1&fp=1&q=&geo=&distance=750&salarymin=&salarymax=&salarytype=annum&tempperm=Any&perpage=100" -O europe/uk/cv-library.co.uk "-*cv-library.co.uk*" "+*cv-library.co.uk/cgi-bin/searchjobs.cgi?posted=28&search=1&fp=1&q=&geo=&distance=750&salarymin=&salarymax=&salarytype=annum&tempperm=Any&perpage=100&offset=*" "+*cv-library.co.uk/job/*[0-9]/*" -s0
+
+Austria
+httrack "http://jobsuche.monster.at/Jobs/?cy=at" -O europe/austria/monster.at "-*.monster.at/*" "+*jobsuche.monster.at/Jobs/?pg=*" "+*stellenanzeige.monster.at/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://derstandard.at/anzeiger/derjob/ResultList.aspx?Options=&decode=1" -O europe/austria/derstandard.at "-*derstandard.at/*" "+*derstandard.at/anzeiger/derjob/ResultList.aspx?Page=*" "+*derstandard.at/anzeiger/derjob/d/*[0-9]/*" "-*follow*" -v
+
+httrack "https://jobroom.ams.or.at/jobsuche/FreieSuche.jsp?query=a" -O europe/austria/ams.at "-*.ams.or.at/*" "+*jobroom.ams.or.at/jobsuche/FreieSuche.jsp?type=navigate&nav=*" "+*jobroom.ams.or.at/jobsuche/FreieSucheVollanzeige.jsp?index=*[0-9]&pk=*" -s0
+
+Germany
+httrack "http://jobsuche.monster.de/Jobs/?cy=at" -O europe/germany/monster.de "-*.monster.de/*" "+*jobsuche.monster.de/Jobs/?pg=*" "+*stellenanzeige.monster.de/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://jobs.meinestadt.de/deutschland/suche?words=Vollzeit&iwc=1" -O europe/germany/meinestadt.de "-*meinestadt.de/*" "+*jobs.meinestadt.de/deutschland/suche?words=Vollzeit&iwc=1&basic_page=*" "+*jobs.meinestadt.de/*/standard?id=*[0-9]" "-*jobs.meinestadt.de/deutschland/suche?words=Vollzeit&iwc=1&basic_page=*[0-9]&premium_page=*"
+
+httrack "http://www.kalaydo.de/jobboerse/1/2/3/?areaId=" -O europe/germany/kalaydo.de "-*kalaydo.de/jobboerse/1/2/3/?page=*[0-9]" "+*kalaydo.de/jobboerse/*/a/*[0-9]/*"
+
+httrack "http://www.absolventa.de/stellenangebote?utf8=%E2%9C%93&query%5Btext%5D=&query%5Bcity%5D=" -O europe/germany/absolventa.de "-*absolventa.de/*" "+*absolventa.de/stellenangebote?page=*" "+*absolventa.de/stellenangebote/*[0-9]-*"  "-*follow*" -v
+
+Belgium
+
+httrack "http://www.vacature.com/vacature/zoeken/overzicht/wijzigingsdatum/query//province/Alle+regio%27s/output/html/op/zoeken/items_per_page/25/page/1/ignore_ids" -O europe/belgium/vacature.com "-*vacature.com*" "+*vacature.com/vacature/zoeken/overzicht/wijzigingsdatum/page/*[0-9]/query//output/html/op/zoeken/load_mode/results_page/items_per_page/25/ignore_ids//fetchDistances//province/Alle+regio%27s" "+*vacature.com/vacature/*[0-9]/*"
+
+httrack "http://www.vdab.be/mijnvdab/jobs/wz/jobs.jsp?isIExplorer=-1&action=SEARCH&dist_channel=www&linkId=&trefwoorden=&regio1=" -O europe/belgium/vdab.be "-*vdab.be*" "+*vdab.be/mijnvdab/jobs/wz/jobs.jsp?regio1=&sess=*[0-9]&isIExplorer=-1&action=OVERVIEWNEXT&trefwoorden=&linkId=&dist_channel=www" "+*vdab.be/mijnvdab/jobs/wz/jobs.jsp?ID=*"
+
+Belgium English
+httrack "http://jobsearch.monster.be/jobs/?cy=be" -O europe/belgium/jobsearch.monster.be "-*.monster.be/*" "+*jobsearch.monster.be/jobs/?pg=*" "+*jobview.monster.be/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Belgium French
+httrack "http://emploi.monster.be/offres-d-emploi/?cy=be" -O europe/belgium/emploi.monster.be "-*.monster.be/*" "+*emploi.monster.be/offres-d-emploi/?pg=*" "+*offreemploi.monster.be/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Belgium Dutch
+httrack "http://job.monster.be/jobs/?cy=be" -O europe/belgium/job.monster.be "-*.monster.be/*" "+*job.monster.be/jobs/?pg=*" "+*bekijkjob.monster.be/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Croatian
+httrack "http://www.moj-posao.net/Pretraga-Poslova/?keyword=&category=&area=&published=&job_type=&professional_qualification=" -O europe/croatia/moj-posao.net "-*.moj-posao.net/*" "+*moj-posap.be/?keyword=&category=&area=&published=&job_type=&professional_qualification=&page=*" "+*moj-posao.net/Posao/*"
+
+httrack "http://burzarada.hzz.hr/RSS.aspx" -O europe/croatia/burzarada.hzz.hr "-*hzz.hr*" "+*burzarada.hzz.hr/rss/rsszup*[0-9].xml" -s0
+
+Czech
+httrack "http://hledani.monster.cz/prace/?cy=cz" -O europe/czech/monster.cz "-*.monster.cz/*" "+*hledani.monster.cz/prace/?pg=*" "+*prace.monster.cz/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Denmark
+httrack "http://jobsoeg.monster.dk/job/?cy=dk" -O europe/denmark/monster.dk "-*.monster.dk/*" "+*jobsoeg.monster.dk/job/?pg=*" "+*annoncevisning.monster.dk/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.jobzonen.dk/s%C3%B8gjob/?countrycode=DK&Keywords=&radialtown=" -O europe/denmark/jobzonen.dk "-*jobzonen.dk*" "+*jobzonen.dk/s%c3%b8gjob/?countrycode=DK&Page=*" "+*jobzonen.dk/job/*[0-9]/*"
+
+httrack "http://www.ofir.dk/Resultat.aspx" -O europe/denmark/ofir.dk "-*ofir.dk*" "+*ofir.dk/Resultat.aspx?query=*" "+*ofir.dk/Resultat/*-*[0-9].aspx?jobId=*"
+
+Estonia
+httrack "http://www.cv.ee/toopakkumised/koik?sort=inserted&dir=desc" -O europe/estonia/cv.ee "-*.cv.ee/*" "+*.cv.ee/toopakkumised/koik?page=*" "+*cv.ee/toopakkumine/*"
+
+httrack "http://www.cvkeskus.ee/joboffers.php?op=search&search_location=landingpage&sort=activation_date&dir=1&tmp_city=&tmp_category=&search%5Bkeyword%5D=&search%5Bexpires_days%5D=&search%5Bjob_lang%5D=&search%5Bjob_minimumpay%5D=&search%5Bjob_maximumpay%5D=&search%5Bjob_currency%5D=EUR&search%5Bpractise%5D=on&search%5Btemporary%5D=on&search%5Bpermanent%5D=on&search%5Bteenistuja%5D=on&search%5Bcontract%5D=on&search%5Bjob_fulltime%5D=on&search%5Bjob_parttime%5D=on" -O europe/estonia/cvkeskus.ee "-*cvkeskus.ee*" "+*cvkeskus.ee/joboffers.php?op=search&search_location=landingpage&sort=activation_date&dir=1&tmp_city=&tmp_category=&search%5Bkeyword%5D=&search%5Bexpires_days%5D=&search%5Bjob_lang%5D=&search%5Bjob_minimumpay%5D=&search%5Bjob_maximumpay%5D=&search%5Bjob_currency%5D=EUR&search%5Bpractise%5D=on&search%5Btemporary%5D=on&search%5Bpermanent%5D=on&search%5Bteenistuja%5D=on&search%5Bcontract%5D=on&search%5Bjob_fulltime%5D=on&search%5Bjob_parttime%5D=on&start=*" "+*cvkeskus.ee/view_jobad.php?job_id=*" -s0
+
+France
+httrack "http://offres.monster.fr/rechercher/" -O europe/france/monster.fr "-*.monster.fr/*" "+*offres.monster.fr/rechercher/?pg=*" "+*offre-emploi.monster.fr/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://jobs-stages.letudiant.fr/jobs-etudiants/offres/" -O europe/france/letudiant.fr "-*letudiant.fr/*" "+*letudiant.fr/jobs-etudiants/offres/page-*" "+*jobs-stages.letudiant.fr/jobs-etudiants/annonce/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.cadremploi.fr/emploi/liste_offres" -O europe/france/cadremploi.fr "-*cadremploi.fr/*" "+*cadremploi.fr/emploi/liste_offres?page=*" "+*cadremploi.fr/emploi/detail_offre?offreId=*" -s0
+
+httrack "http://www.keljob.com/recherche/_/N-6qc?nbJobPage=15" -O europe/france/keljob.com "-*keljob.com/*" "+*keljob.com/recherche/_/N-6qc?nbJobPage=15&offset=*" "+*keljob.com/offre/*-*[0-9]" "-*follow*" "-*ac=add*" -v
+
+httrack "https://candidat.pole-emploi.fr/candidat/rechercheoffres/resultats/A__FRANCE_01___P__________INDIFFERENT________E______" -O /Users/mnguyentc/jobcrawler/europe/france/pole-emploi.fr "-*pole-emploi.fr/*" "+*candidat.pole-emploi.fr/candidat/rechercheoffres/resultats/A__FRANCE_01___P__________INDIFFERENT________E______#linksubmitaveccontexte" "+*candidat.pole-emploi.fr/candidat/rechercheoffres/resultats/A__FRANCE_01___P__________INDIFFERENT________E______" "+*candidat.pole-emploi.fr/candidat/rechercheoffres/resultats.composantresultatrechercheoffre.tableauresultatrechercheoffre:detailoffre/*" "+*candidat.pole-emploi.fr/candidat/rechercheoffres/detail/*"
+
+Hungary
+httrack "http://allasok.monster.hu/allas/?cy=hu" -O europe/hungary/monster.hu "-*.monster.hu/*" "+*allasok.monster.hu/allas/?pg=*" "+*allas.monster.hu/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Iceland
+httrack "http://www.vinnumalastofnun.is/storf-i-bodi/" -O europe/iceland/vinnumalastofnun.is "-*vinnumalastofnun.is*" "+*vinnumalastofnun.is/storf-i-bodi/?pageno=*[0-9]&Query=&CountryPart=&Employment=&publication=-1" "+*vinnumalastofnun.is/storf-i-bodi/nr/*[0-9]/*" -s0
+
+Ireland 
+httrack "http://jobsearch.monster.ie/jobs/?cy=ie" -O europe/ireland/monster.ie "-*monster.ie/*" "+*jobsearch.monster.ie/jobs/?pg=*" "+*jobview.monster.ie/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.jobs.ie/Jobs.aspx?Categories=Job+Type&Regions=Job+Location&Keywords=" -O europe/ireland/jobs.ie "-*jobs.ie/*" "+*jobs.ie/Jobs.aspx?Categories=Job+Type&Regions=Job+Location&Page=*" "+*jobs.ie/ApplyForJob.aspx?Id=*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.irishjobs.ie/ShowResults.aspx?Keywords=&Location=0&Category=&Recruiter=Company&Recruiter=Agency" -O europe/ireland/irishjobs.ie "-*irishjobs.ie*" "+*irishjobs.ie/ShowResults.aspx?Keywords=&Location=0&Category=&Recruiter=Company%2cAgency&Page=*[0-9]" "+*irishjobs.ie/Jobs/*-*[0-9].aspx"
+
+httrack "https://www.cpl.ie/all/all/1/search-result.html" -O europe/ireland/cpl.ie "-*cpl.ie*" "+*cpl.ie/jobs/all/all/*[0-9]/search-result.html" "+*cpl.ie/job/*.html"
+
+httrack "https://www.recruitireland.com/search/" -O europe/ireland/recruitireland.com "-*recruitireland.com*" "+*recruitireland.com/search/Default.aspx?RP=*[0-9]" "+*recruitireland.com/job/*/*[0-9]/" -s0
+
+httrack "http://www.dublinwork.com/" -O europe/ireland/dublinwork.com "-*dublinwork.com*" "+*dublinwork.com/content/job.html?slide=*[0-9]&AgencyCompany=&permContract=&idCompanySearch=&idCategory=&keywords=" "+*dublinwork.com/jobDetail/*[0-9]-*.html" -s0
+
+httrack "http://www.adverts.ie/jobs/3/" -O europe/ireland/adverts.ie "-*adverts.ie*" "+*adverts.ie/jobs/3/page-*[0-9]" "+*adverts.ie/jobs/*/*[0-9]" "-*adverts.ie/jobs/*/*[0-9]/*" -s0
+
+Italy 
+httrack "http://cercalavoro.monster.it/trova" -O europe/italy/monster.it "-*monster.it/*" "+*cercalavoro.monster.it/trova/?pg=*" "+*offerte-lavoro.monster.it/*-offerta-lavoro-*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.infojobs.it/offerte-lavoro" -O europe/italy/infojobs.it "-*infojobs.it/*" "+*infojobs.it/offerte-lavoro/*[0-9]" "+*infojobs.it/*of-*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Latvia
+httrack "http://www.cv.lv/darba-sludinajumi/visi?sort=inserted&dir=desc" -O europe/latvia/cv.lv "-*.cv.lv/*" "+*cv.lv/darba-sludinajumi/visi?page=*" "+*cv.lv/darba-sludinajums/*/*-*.html"
+
+httrack "http://cvvp.nva.gov.lv/vakances" -O europe/latvia/cvvp.nva.gov.lv "-*gov.lv*" "+*cvvp.nva.gov.lv/vakances?action=vakances&p=*" "+*cvvp.nva.gov.lv/vakance/*[0-9]"
+
+Lithuania
+httrack "http://www.cvonline.lt/darbo-skelbimai/visi?sort=inserted&dir=desc" -O europe/lithuania/cvonline.lt "-*.cvonline.lt/*" "+*www.cvonline.lt/darbo-skelbimai/visi?page=*" "+*cvonline.lt/darbo-skelbimas/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Luxembourg
+httrack "http://www.moovijob.com/offres-emploi.html?pt=&d=&q=" -O europe/luxembourg/moovijob.com "-*moovijob.com*" "+*moovijob.com/offre-emploi-*-*[0-9].html" -s0
+
+Luxembourg English
+httrack "http://jobsearch.monster.lu/jobs/?cy=lu" -O europe/luxembourg/monster-english "-*.monster.lu/*" "+*jobsearch.monster.lu/jobs/?pg=*" "+*jobview.monster.lu/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Luxembourg German
+httrack "http://jobsuche.monster.lu/Jobs/?cy=at" -O europe/luxembourg/monster-german "-*.monster.lu/*" "+*jobsuche.monster.lu/Jobs/?pg=*" "+*stellenanzeige.monster.lu/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Luxembourg French
+httrack "http://emploi.monster.lu/offres-d-emploi/?cy=lu" -O europe/luxembourg/monster-french "-*.monster.lu/*" "+*emploi.monster.lu/offres-d-emploi/?pg=*" "+*offreemploi.monster.lu/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Netherlands
+httrack "http://jobsearch.monsterboard.nl/vacatures/?cy=nl" -O europe/netherlands/monsterboard.nl "-*monsterboard.nl*" "+*jobsearch.monsterboard.nl/vacatures/?pg=*" "+*vacature.monsterboard.nl/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.nationalevacaturebank.nl/vacature/zoeken/overzicht/wijzigingsdatum/query//distance/30/output/html/items_per_page/15/page/1/ignore_ids" -O europe/netherlands/nationalevacaturebank.nl "-*nationalevacaturebank.nl*" "+*nationalevacaturebank.nl/vacature/zoeken/overzicht/wijzigingsdatum/page/*[0-9]/query//distance/30/output/html/load_mode/results_page/items_per_page/15/ignore_ids//fetchDistances" "+*nationalevacaturebank.nl/vacature/*[0-9]/*"
+
+Norway
+httrack "http://jobbsok.monster.no/Jobb/?cy=no" -O europe/norway/monster.no "-*.monster.no/*" "+*jobbsok.monster.no/Jobb/?pg=*" "+*annonsevisning.monster.no/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.jobbnorge.no/ledige-stillinger/alle" -O europe/norway/jobbnorge.no "-*jobbnorge.no*" "+*jobbnorge.no/ledige-stillinger/alle?page=*" "+*jobbnorge.no/ledige-stillinger/stilling/*[0-9]/*"
+
+httrack "https://tjenester.nav.no/stillinger/stillinger?rpp&rv" -O europe/norway/nav.no "-*nav.no*" "+*tjenester.nav.no/stillinger/stillinger?sort=akt&rpp=50&p=*[0-9]&rv=al" "+*tjenester.nav.no/stillinger/stilling?sort=akt&rpp=50&p=*[0-9]&ID=*[0-9]&rv=al" -s0
+
+Poland
+httrack "http://praca.monsterpolska.pl/praca/?cy=pl" -O europe/poland/monsterpolska.pl "-*monsterpolska.pl*" "+*praca.monsterpolska.pl/praca/?pg=*" "+*ofertapracy.monsterpolska.pl/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://zielonalinia.gov.pl/zl/Search/Results?SelectedOccupation=&SelectedCity=&SelectedCountry=pl" -O europe/poland/zielonalinia.gov.pl "-*zielonalinia.gov.pl*" "+*zielonalinia.gov.pl/zl/Search/Results?SelectedCountry=pl&DateAdded=0&IncludeSynonyms=False&PageSize=20&page=*" "+*zielonalinia.gov.pl/zl/Search/Details?jobid=*[0-9]" -s0
+
+httrack "http://gazetapraca.pl/szukaj/w-dolnoslaskie/w-kujawsko-pomorskie/w-lodzkie/w-lubelskie/w-lubuskie/w-malopolskie/w-mazowieckie/w-opolskie/w-podkarpackie/w-podlaskie/w-pomorskie/w-slaskie/w-swietokrzyskie/w-warminsko-mazurskie/w-wielkopolskie/w-zachodniopomorskie" -O europe/poland/gazetapraca.pl "-*gazetapraca.pl*" "+*gazetapraca.pl/szukaj/w-dolnoslaskie/w-kujawsko-pomorskie/w-lodzkie/w-lubelskie/w-lubuskie/w-malopolskie/w-mazowieckie/w-opolskie/w-podkarpackie/w-podlaskie/w-pomorskie/w-slaskie/w-swietokrzyskie/w-warminsko-mazurskie/w-wielkopolskie/w-zachodniopomorskie/st-*[0-9]" "+*gazetapraca.pl/ogl/*[0-9]/*" -s0
+
+Slovakia
+httrack "http://hladanie.monster.sk/ponuky%20pr%C3%A1ce/?cy=sk" -O europe/slovakia/monster.sk "-*.monster.sk/*" "+*hladanie.monster.sk/ponuky%20pr%C3%A1ce/?pg=*" "+*praca.monster.sk/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "https://istp.sk/vpm.php?zdroj%255B%255D=3&zdroj_meno%255B%255D=upsvar.sk&vyraz=&search_poziciu=&lokalita_zamestnania=-1&lokalita_zamestnania_fulltext=&select_vzdelanie=0&select_zdroj=3" -O europe/slovakia/istp.sk "-*istp.sk/*" "+*istp.sk/vpm.php?zdroj%5B%5D=3&zdroj_meno%5B%5D=upsvar.sk&vyraz=&search_poziciu=&lokalita_zamestnania=-1&lokalita_zamestnania_fulltext=&select_vzdelanie=0&select_zdroj=3&aktualna=*" "+*istp.sk/pracovna-ponuka/*[0-9]/*" "-*js*" "-*images*" "-*css*" "-*jscript*" "-*vpm_detail*" "-*vratPomocnika*" "-*zoznam_zamestnavatelov*" "-*vratZamestnavatela*" "-*podporte_istp*" "-*spolupracujuce_institucie*" "-*na_stiahnutie*"
+
+Sweden
+httrack "http://jobb.monster.se/browse" -O europe/sweden/monster.se "-*.monster.se/*" "+*jobb.monster.se/browse/?pg=*" "+*annonsoversikt.monster.se/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.metrojobb.se/jobb/s%C3%B6k?e1=1&e1=2&e1=3&e1=4&pgSize=100" -O europe/sweden/metrojobb.se "-*metrojobb.se*" "+*metrojobb.se/jobb/s%C3%B6k?e1=1&e1=2&e1=3&e1=4&pgSize=100&page=*[0-9]" "+*metrojobb.se/jobad/*" "-*metrojobb.se/jobad/*/Templates/*" -s0
+
+httrack "http://jobb.blocket.se/lediga-jobb-i-hela-sverige/" -O europe/sweden/blocket.se "-*blocket.se/*" "+*jobb.blocket.se/lediga-jobb-i-hela-sverige/sida*" "+*jobb.blocket.se/ledigt-jobb-i-*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.merajobb.se/alla-jobb" -O europe/sweden/merajobb.se "-*merajobb.se/*" "+*http://www.merajobb.se/Templates/pages/JobList.aspx?pageNumber=*" "+*merajobb.se/jobb/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.careerbuilder.se/intl/jobseeker/jobs/jobresults.aspx?exCrit=st%3da%3buse%3dALL%3bCID%3dSE%3bSID%3d%3f%3bTID%3d0%3bLOCCID%3dSE%3bENR%3dNO%3bDTP%3dDRNS%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bPDQ%3dAll%3bPAYL%3d0%3bPAYH%3dgt120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dIL%3bQS%3dsid_unknown%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD%3bJDV%3dFalse%3bSITEENT%3dSEJ%3bMaxLowExp%3d-1%3bRecsPerPage%3d25&sc_cmp2=JS_SE_QSB_GEN&IPath=QH" -O europe/sweden/careerbuilder.se "-*careerbuilder.se*" "+*careerbuilder.se/intl/jobseeker/jobs/jobresults.aspx?excrit=st%3dA%3buse%3dALL%3bCID%3dSE%3bSID%3d%3f%3bTID%3d0%3bLOCCID%3dSE%3bENR%3dNO%3bDTP%3dDRNS%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bPDQ%3dAll%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dIL%3bQS%3dSID_UNKNOWN%3bSS%3dNO%3bTITL%3d0%3bOB%3d-relv%3bRAD%3d30%3bJQT%3dRAD%3bJDV%3dFalse%3bHost%3dSE%3bSITEENT%3dSEJ%3bMaxLowExp%3d-1%3bRecsPerPage%3d20&pg=*[0-9]&sc_cmp2=JS_SE_JRP_NextBottom&IPath=QHCV" "+*careerbuilder.se/jobb/*"
+
+Swiss German
+httrack "http://jobsuche.monster.ch/Jobs/?cy=ch" -O europe/swiss/jobsuche.monster.ch "-*monster.ch*" "+*jobsuche.monster.ch/Jobs/?pg=*" "+*stellenanzeige.monster.ch/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Swiss French
+httrack "http://offres.monster.ch/offres-d-emploi/?cy=ch" -O europe/swiss/offres.monster.ch "-*monster.ch*" "+*offres.monster.ch/offres-d-emploi/?pg=*" "+*offre-emploi.monster.ch/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Spain
+httrack "http://buscartrabajo.monster.es/trabajos/?cy=es" -O europe/spain/monster.es "-*.monster.es/*" "+*buscartrabajo.monster.es/trabajos/?pg=*" "+*ofertas-empleo.monster.es/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+Slovenia
+httrack "http://www.zaposlitev.net/delo.php?m=iskalci&search&shrani&tip=dn" -O europe/slovenia/zaposlitev.net "-*zaposlitev.net*" "+*zaposlitev.net/?m=iskalci&search&shrani&tip=dn&page=*" "+*zaposlitev.net/delo.php?m=iskalci&search&shrani&tip=dn&page=*" "+*zaposlitev.net/delo-oglas-*_*[0-9].html" -s0
+
+Bulgaria 
+httrack "http://www.jobs.bg/front_job_search.php?first=1&str_regions=&str_locations=&tab=jobs&old_country=&country=-1&region=0&l_category%5B%5D=0&keyword=" -O europe/bulgaria/jobs.bg "-*jobs.bg/*" "+*jobs.bg/front_job_search.php?frompage=*" "+*jobs.bg/*[0-9,f]" "-*.jpg" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v
+
+httrack "http://www.az.government.bg/bg/ejobs/prl_list/" -O europe/bulgaria/az.government.bg "-*government.bg/*" "+*az.government.bg/bg/ejobs/prl_list/?page=*" "+*az.government.bg/bg/ejobs/detail_prl/*[0-9]/"
+
+Romania
+httrack "http://www.ejobs.ro/user/searchjobs?q=&oras%5B%5D=&departament%5B%5D=&industrie%5B%5D=&searchType=simple&time_span=&page_no=&page_results=" -O europe/romania/ejobs.ro "-*.ejobs.ro/*" "+*ejobs.ro/user/searchjobs?q=&oras%5B%5D=&departament%5B%5D=&industrie%5B%5D=&searchType=simple&time_span=&page_no=*" "+*ejobs.ro/user/locuri-de-munca/*" "+*ejobs.ro/personalizat/*" "+*ejobs.ro/branded/*" "-*follow*" "-*ac=add*" "-*emailfriend.aspx*" -v

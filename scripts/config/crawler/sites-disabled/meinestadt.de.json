@@ -1,0 +1,5 @@
+{
+	"name":"meinestadt.de",
+	"interval":24,
+	"cmd":"httrack \"http://jobs.meinestadt.de/deutschland/suche?words=Vollzeit&iwc=1\" \"-*meinestadt.de*\" \"+*jobs.meinestadt.de/deutschland/suche?words=Vollzeit&iwc=1&basic_page=*\" \"+*jobs.meinestadt.de/*/standard?id=*[0-9]\" \"-*jobs.meinestadt.de/deutschland/suche?words=Vollzeit&iwc=1&basic_page=*[0-9]&premium_page=*\""
+}

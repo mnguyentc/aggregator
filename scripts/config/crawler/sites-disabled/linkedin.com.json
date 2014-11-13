@@ -1,0 +1,5 @@
+{
+	"name":"linkedin.com",
+	"interval":24,
+	"cmd":"httrack \"https://www.linkedin.com/job/jobs-in-united-states/?trk=jserp_search_button_execute\" \"-*linkedin.com*\" \"+*linkedin.com/job/jobs-in-united-states/?page_num=*[0-9]&trk=jserp_pagination_*[0-9]\" \"+*linkedin.com/jobs2/view/*[0-9]?trk=*\""
+}

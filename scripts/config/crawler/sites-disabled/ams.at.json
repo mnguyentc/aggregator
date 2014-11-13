@@ -1,0 +1,5 @@
+{
+	"name":"ams.at",
+	"interval":24,
+	"cmd":"httrack \"https://jobroom.ams.or.at/jobsuche/FreieSuche.jsp?query=a\" \"-*ams.or.at*\" \"+*jobroom.ams.or.at/jobsuche/FreieSuche.jsp?type=navigate&nav=*\" \"+*jobroom.ams.or.at/jobsuche/FreieSucheVollanzeige.jsp?index=*[0-9]&pk=*\" \"-s0\""
+}

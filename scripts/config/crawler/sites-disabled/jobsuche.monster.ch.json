@@ -1,0 +1,5 @@
+{
+	"name":"jobsuche.monster.ch",
+	"interval":24,
+	"cmd":"httrack \"http://jobsuche.monster.ch/Jobs/?cy=ch\" \"-*monster.ch*\" \"+*jobsuche.monster.ch/Jobs/?pg=\" \"+*stellenanzeige.monster.ch/*\""
+}

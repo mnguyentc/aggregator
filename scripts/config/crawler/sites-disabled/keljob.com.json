@@ -1,0 +1,5 @@
+{
+	"name":"keljob.com",
+	"interval":24,
+	"cmd":"httrack \"http://www.keljob.com/recherche/_/N-6qc?nbJobPage=15\" \"-*keljob.com/*\" \"+*keljob.com/recherche/_/N-6qc?nbJobPage=15&offset=*\" \"+*keljob.com/offre/*-*[0-9]\""
+}

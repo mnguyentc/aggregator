@@ -1,0 +1,5 @@
+{
+	"name":"staffpoint.fi",
+	"interval":24,
+	"cmd":"httrack \"https://www.staffpoint.fi/avoimet-tyopaikat/\" \"-*staffpoint.fi/*\" \"+*staffpoint.fi/avoimet-tyopaikat/*\""
+}

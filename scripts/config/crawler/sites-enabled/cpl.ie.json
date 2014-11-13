@@ -1,0 +1,5 @@
+{
+	"name":"cpl.ie",
+	"interval":24,
+	"cmd":"httrack \"https://www.cpl.ie/all/all/1/search-result.html\" \"-*cpl.ie*\" \"+*cpl.ie/jobs/all/all/*[0-9]/search-result.html\" \"+*cpl.ie/job/*.html\""
+}

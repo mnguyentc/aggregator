@@ -1,0 +1,5 @@
+{
+	"name":"oikotie.fi",
+	"interval":24,
+	"cmd":"httrack \"http://tyopaikat.oikotie.fi\" \"-*oikotie.fi/*\" \"+*oikotie.fi/avoimet-tyopaikat/*\""
+}

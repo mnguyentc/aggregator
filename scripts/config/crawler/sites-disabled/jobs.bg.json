@@ -1,0 +1,5 @@
+{
+	"name":"jobs.bg",
+	"interval":24,
+	"cmd":"httrack \"http://www.jobs.bg/front_job_search.php?first=1&str_regions=&str_locations=&tab=jobs&old_country=&country=-1&region=0&l_category%5B%5D=0&keyword=\" \"-*jobs.bg*\" \"+*jobs.bg/front_job_search.php?frompage=*\" \"+*jobs.bg/*[0-9,f]\" \"-*.jpg\""
+}

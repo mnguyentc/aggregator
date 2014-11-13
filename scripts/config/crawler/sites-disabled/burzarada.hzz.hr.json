@@ -1,0 +1,5 @@
+{
+	"name":"burzarada.hzz.hr",
+	"interval":24,
+	"cmd":"httrack \"http://burzarada.hzz.hr/RSS.aspx\" \"-*hzz.hr*\" \"+*burzarada.hzz.hr/rss/rsszup*[0-9].xml\" \"-s0\""
+}

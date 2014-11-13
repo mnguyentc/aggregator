@@ -1,0 +1,5 @@
+{
+	"name":"cvvp.nva.gov.lv",
+	"interval":24,
+	"cmd":"httrack \"http://cvvp.nva.gov.lv/vakances\" \"-*nva.gov.lv*\" \"+*cvvp.nva.gov.lv/vakances?action=vakances&p=*\" \"+*cvvp.nva.gov.lv/vakance/*[0-9]\" \"-s0\""
+}

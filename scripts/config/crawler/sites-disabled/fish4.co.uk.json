@@ -1,0 +1,5 @@
+{
+	"name":"fish4.co.uk",
+	"interval":24,
+	"cmd":"httrack \"http://www.fish4.co.uk/jobs\" \"-*fish4.co.uk/*\" \"+*fish4.co.uk/jobs/*\" \"+*fish4.co.uk/job/*/*\""
+}

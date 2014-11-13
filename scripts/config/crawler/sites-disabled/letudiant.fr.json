@@ -1,0 +1,5 @@
+{
+	"name":"letudiant.fr",
+	"interval":24,
+	"cmd":"httrack \"http://jobs-stages.letudiant.fr/jobs-etudiants/offres/\" \"-*letudiant.fr/*\" \"+*letudiant.fr/jobs-etudiants/offres/page-*\" \"+*jobs-stages.letudiant.fr/jobs-etudiants/annonce/*\""
+}

@@ -1,0 +1,5 @@
+{
+	"name":"infojobs.it",
+	"interval":24,
+	"cmd":"httrack \"http://www.infojobs.it/offerte-lavoro\" \"-*infojobs.it*\" \"+*infojobs.it/offerte-lavoro/*[0-9]\" \"+*infojobs.it/*of-*\""
+}

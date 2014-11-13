@@ -1,0 +1,5 @@
+{
+	"name":"zaposlitev.net",
+	"interval":24,
+	"cmd":"httrack \"http://www.zaposlitev.net/delo.php?m=iskalci&search&shrani&tip=dn\" \"-*zaposlitev.net*\" \"+*zaposlitev.net/?m=iskalci&search&shrani&tip=dn&page=*\" \"+*zaposlitev.net/delo.php?m=iskalci&search&shrani&tip=dn&page=*\" \"+*zaposlitev.net/delo-oglas-*_*[0-9].html\""
+}

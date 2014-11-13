@@ -1,0 +1,5 @@
+{
+	"name":"cvlibrary.co.uk",
+	"interval":24,
+	"cmd":"httrack \"http://www.cv-library.co.uk/cgi-bin/searchjobs.cgi?posted=28&search=1&fp=1&q=&geo=&distance=750&salarymin=&salarymax=&salarytype=annum&tempperm=Any&perpage=100\" \"-*cv-library.co.uk/*\" \"+*cv-library.co.uk/cgi-bin/searchjobs.cgi?posted=28&search=1&fp=1&q=&geo=&distance=750&salarymin=&salarymax=&salarytype=annum&tempperm=Any&perpage=100&offset=*\" \"+*cv-library.co.uk/job/*[0-9]/*\""
+}

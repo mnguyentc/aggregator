@@ -1,0 +1,5 @@
+{
+	"name":"careerbuilder.se",
+	"interval":24,
+	"cmd":"httrack \"http://www.careerbuilder.se/intl/jobseeker/jobs/jobresults.aspx?exCrit=st%3da%3buse%3dALL%3bCID%3dSE%3bSID%3d%3f%3bTID%3d0%3bLOCCID%3dSE%3bENR%3dNO%3bDTP%3dDRNS%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bPDQ%3dAll%3bPAYL%3d0%3bPAYH%3dgt120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dIL%3bQS%3dsid_unknown%3bSS%3dNO%3bTITL%3d0%3bJQT%3dRAD%3bJDV%3dFalse%3bSITEENT%3dSEJ%3bMaxLowExp%3d-1%3bRecsPerPage%3d25&sc_cmp2=JS_SE_QSB_GEN&IPath=QH\" \"-*careerbuilder.se*\" \"+*careerbuilder.se/intl/jobseeker/jobs/jobresults.aspx?excrit=st%3dA%3buse%3dALL%3bCID%3dSE%3bSID%3d%3f%3bTID%3d0%3bLOCCID%3dSE%3bENR%3dNO%3bDTP%3dDRNS%3bYDI%3dYES%3bIND%3dALL%3bPDQ%3dAll%3bPDQ%3dAll%3bPAYL%3d0%3bPAYH%3dGT120%3bPOY%3dNO%3bETD%3dALL%3bRE%3dALL%3bMGT%3dDC%3bSUP%3dDC%3bFRE%3d30%3bCHL%3dIL%3bQS%3dSID_UNKNOWN%3bSS%3dNO%3bTITL%3d0%3bOB%3d-relv%3bRAD%3d30%3bJQT%3dRAD%3bJDV%3dFalse%3bHost%3dSE%3bSITEENT%3dSEJ%3bMaxLowExp%3d-1%3bRecsPerPage%3d20&pg=*[0-9]&sc_cmp2=JS_SE_JRP_NextBottom&IPath=QHCV\" \"+*careerbuilder.se/jobb/*\""
+}

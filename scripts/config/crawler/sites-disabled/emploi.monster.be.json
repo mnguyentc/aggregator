@@ -1,0 +1,5 @@
+{
+	"name":"emploi.monster.be",
+	"interval":24,
+	"cmd":"httrack \"http://emploi.monster.be/offres-d-emploi/?cy=be\" \"-*monster.be*\" \"+*emploi.monster.be/offres-d-emploi/?pg=*\" \"+*offreemploi.monster.be/*\""
+}

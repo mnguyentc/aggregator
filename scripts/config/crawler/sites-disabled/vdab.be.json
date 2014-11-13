@@ -1,0 +1,5 @@
+{
+	"name":"vdab.be",
+	"interval":24,
+	"cmd":"httrack \"http://www.vdab.be/mijnvdab/jobs/wz/jobs.jsp?isIExplorer=-1&action=SEARCH&dist_channel=www&linkId=&trefwoorden=&regio1=\" \"-*vdab.be*\" \"+*vdab.be/mijnvdab/jobs/wz/jobs.jsp?regio1=&sess=*[0-9]&isIExplorer=-1&action=OVERVIEWNEXT&trefwoorden=&linkId=&dist_channel=www\" \"+*vdab.be/mijnvdab/jobs/wz/jobs.jsp?ID=*\""
+}

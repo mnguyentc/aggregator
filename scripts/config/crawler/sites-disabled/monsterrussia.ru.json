@@ -1,0 +1,5 @@
+{
+	"name":"monsterrussia.ru",
+	"interval":24,
+	"cmd":"httrack \"http://rabota.monsterrussia.ru/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/?cy=ru\" \"-*monsterrussia.ru*\" \"+*rabota.monsterrussia.ru/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/?pg=*\" \"+*jobview.monsterrussia.ru/*\""
+}

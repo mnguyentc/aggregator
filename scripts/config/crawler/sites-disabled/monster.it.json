@@ -1,0 +1,5 @@
+{
+	"name":"monster.it",
+	"interval":24,
+	"cmd":"httrack \"http://cercalavoro.monster.it/trova\" \"-*monster.it*\" \"+*cercalavoro.monster.it/trova/?pg=*\" \"+*offerte-lavoro.monster.it/*-offerta-lavoro-*\""
+}

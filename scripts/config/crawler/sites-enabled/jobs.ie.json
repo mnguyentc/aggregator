@@ -1,0 +1,5 @@
+{
+	"name":"jobs.ie",
+	"interval":24,
+	"cmd":"httrack \"http://www.jobs.ie/Jobs.aspx?Categories=Job+Type&Regions=Job+Location&Keywords=\" \"-*jobs.ie*\" \"+*jobs.ie/Jobs.aspx?Categories=Job+Type&Regions=Job+Location&Page=*\" \"+*jobs.ie/ApplyForJob.aspx?Id=*\""
+}

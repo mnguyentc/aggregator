@@ -1,0 +1,5 @@
+{
+	"name":"cvonline.lt",
+	"interval":24,
+	"cmd":"httrack \"http://www.cvonline.lt/darbo-skelbimai/visi?sort=inserted&dir=desc\" \"-*cvonline.lt*\" \"+*cvonline.lt/darbo-skelbimai/visi?page=*\" \"+*cvonline.lt/darbo-skelbimas/*\""
+}

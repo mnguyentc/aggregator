@@ -1,0 +1,5 @@
+{
+	"name":"monster.fi",
+	"interval":24,
+	"cmd":"httrack \"http://hae.monster.fi/ty%C3%B6paikkoja/?cy=fi\" \"-*monster.fi/*\" \"+*hae.monster.fi/työpaikkoja/?pg=*\" \"+*nayta.monster.fi/*\""
+}

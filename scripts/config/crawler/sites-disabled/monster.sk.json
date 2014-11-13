@@ -1,0 +1,5 @@
+{
+	"name":"monster.sk",
+	"interval":24,
+	"cmd":"httrack \"http://hladanie.monster.sk/ponuky%20pr%C3%A1ce/?cy=sk\" \"-*monster.sk*\" \"+*hladanie.monster.sk/ponuky%20pr%C3%A1ce/?pg=*\" \"+*praca.monster.sk/*\""
+}

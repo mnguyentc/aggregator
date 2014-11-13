@@ -1,0 +1,5 @@
+{
+	"name":"gazetapraca.pl",
+	"interval":24,
+	"cmd":"httrack \"http://gazetapraca.pl/szukaj/w-dolnoslaskie/w-kujawsko-pomorskie/w-lodzkie/w-lubelskie/w-lubuskie/w-malopolskie/w-mazowieckie/w-opolskie/w-podkarpackie/w-podlaskie/w-pomorskie/w-slaskie/w-swietokrzyskie/w-warminsko-mazurskie/w-wielkopolskie/w-zachodniopomorskie\" \"-*gazetapraca.pl*\" \"+*gazetapraca.pl/szukaj/w-dolnoslaskie/w-kujawsko-pomorskie/w-lodzkie/w-lubelskie/w-lubuskie/w-malopolskie/w-mazowieckie/w-opolskie/w-podkarpackie/w-podlaskie/w-pomorskie/w-slaskie/w-swietokrzyskie/w-warminsko-mazurskie/w-wielkopolskie/w-zachodniopomorskie/st-*[0-9]\" \"+*gazetapraca.pl/ogl/*[0-9]/\" \"-s0\""
+}

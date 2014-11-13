@@ -1,0 +1,5 @@
+{
+	"name":"monster.cz",
+	"interval":24,
+	"cmd":"httrack \"http://hledani.monster.cz/prace/?cy=cz\" \"-*monster.cz*\" \"+*hledani.monster.cz/prace/?pg=*\" \"+*prace.monster.cz/*\""
+}

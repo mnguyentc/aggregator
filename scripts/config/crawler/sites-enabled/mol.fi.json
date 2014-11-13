@@ -1,0 +1,5 @@
+{
+	"name":"mol.fi",
+	"interval":24,
+	"cmd":"httrack \"http://www.mol.fi/tyopaikat/tyopaikkatiedotus/kevyt/hae.htm?lang=fi&tarkempiHaku=true&hakusana=a&alueetLista=&_alueetLista=1&valitutAmmattialat=&_valitutAmmattialat=1&ilmoitettuPvm=1&vuokrapaikka=---\" \"-*mol.fi/*\" \"+*mol.fi/tyopaikat/tyopaikkatiedotus/kevyt/vaihdasivu.htm?sivu=*\" \"+*mol.fi/tyopaikat/tyopaikkatiedotus/kevyt/tiedot.htm?ilmoitusnumero=*\""
+}

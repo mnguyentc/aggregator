@@ -1,0 +1,5 @@
+{
+	"name":"az.government.bg",
+	"interval":24,
+	"cmd":"httrack \"http://www.az.government.bg/bg/ejobs/prl_list/\" \"-*government.bg*\" \"+*az.government.bg/bg/ejobs/prl_list/?page=*\" \"+*az.government.bg/bg/ejobs/detail_prl/*[0-9]/\""
+}

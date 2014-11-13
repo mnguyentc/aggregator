@@ -1,0 +1,5 @@
+{
+	"name":"monster.co.id",
+	"interval":24,
+	"cmd":"httrack \"http://jobsearch.monster.co.id/searchresult.html\" \"-*monster.co.id*\" \"+*jobsearch.monster.co.id/searchresult.html?testjob=&ref=http%3A%2F%2Fjobsearch.monster.co.id%2Fsearch.html&jbc=&jbr=&ind=&cid=&co=&glc=&gin=&gct=&grl=&uchl=1&dyma=&rfr=www.monster.co.id&sim_job=&usn=&appsrc=&show_omit=1&lan=&fts_org=&fts_sug=&jbm=&strict_mxe=&djbm=&fts=&day=60&lmy=&mne=&mxe=&srt=pst&n=*\" \"+*jobs.monster.co.id/details/*\""
+}

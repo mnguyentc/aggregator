@@ -1,0 +1,5 @@
+{
+	"name":"ejobs.ro",
+	"interval":24,
+	"cmd":"httrack \"http://www.ejobs.ro/user/searchjobs?q=&oras%5B%5D=&departament%5B%5D=&industrie%5B%5D=&searchType=simple&time_span=&page_no=&page_results=\" \"-*ejobs.ro*\" \"+*ejobs.ro/user/searchjobs?q=&oras%5B%5D=&departament%5B%5D=&industrie%5B%5D=&searchType=simple&time_span=&page_no=*\" \"+*ejobs.ro/user/locuri-de-munca/*\" \"+*ejobs.ro/personalizat/*\" \"+*ejobs.ro/branded/*\""
+}

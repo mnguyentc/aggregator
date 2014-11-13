@@ -1,0 +1,5 @@
+{
+	"name":"jobbnorge.no",
+	"interval":24,
+	"cmd":"httrack \"http://www.jobbnorge.no/ledige-stillinger/alle\" \"-*jobbnorge.no*\" \"+*jobbnorge.no/ledige-stillinger/alle?page=*\" \"+*jobbnorge.no/ledige-stillinger/stilling/*[0-9]/*\""
+}

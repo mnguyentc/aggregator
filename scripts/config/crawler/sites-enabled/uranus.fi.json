@@ -1,0 +1,5 @@
+{
+	"name":"uranus.fi",
+	"interval":24,
+	"cmd":"httrack \"http://www.uranus.fi/tyopaikat/luettelo\" \"-*uranus.fi/*\" \"+*uranus.fi/tyopaikat/luettelo?page=*\" \"+*uranus.fi/tyopaikat/nayta/*\""
+}

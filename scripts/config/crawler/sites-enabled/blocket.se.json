@@ -1,0 +1,5 @@
+{
+	"name":"blocket.se",
+	"interval":24,
+	"cmd":"httrack \"http://jobb.blocket.se/lediga-jobb-i-hela-sverige\" \"-*blocket.se/*\" \"+*jobb.blocket.se/lediga-jobb-i-hela-sverige/sida*\" \"+*jobb.blocket.se/ledigt-jobb-i-*\""
+}

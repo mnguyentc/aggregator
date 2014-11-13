@@ -1,0 +1,5 @@
+{
+	"name":"jobsdb.com",
+	"interval":24,
+	"cmd":"httrack \"http://sg.jobsdb.com/SG/EN/Search/FindJobs?KeyOpt=COMPLEX&JSRV=1&RLRSF=1&JobCat=1&JSSRC=HPAS\" \"-*jobsdb.com*\" \"+*sg.jobsdb.com/SG/en/Search/FindJobs?AD=30&Blind=1&Host=J&JobCat=1&JSRV=1&page=*\" \"+*sg.jobsdb.com/SG/EN/Search/JobAdSingleDetail?jobsIdList=*\""
+}

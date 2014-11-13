@@ -1,0 +1,5 @@
+{
+	"name":"nav.no",
+	"interval":24,
+	"cmd":"httrack \"https://tjenester.nav.no/stillinger/stillinger?rpp&rv\" \"-*nav.no*\" \"+*tjenester.nav.no/stillinger/stillinger?sort=akt&rpp=50&p=*[0-9]&rv=al\" \"+*tjenester.nav.no/stillinger/stilling?sort=akt&rpp=50&p=*[0-9]&ID=*[0-9]&rv=al\" \"tjenester.nav.no/stillinger/stillinger;JSESSIONID-stilling2=d2tArpcm2rJJFzdrKZwJddgx?sort=akt&rpp=50&p=*[0-9]&rv=al\" \"tjenester.nav.no/stillinger/stilling;JSESSIONID-stilling2=d2tArpcm2rJJFzdrKZwJddgx?sort=akt&rpp=50&p=0&ID=*[0-9]&rv=al\" \"-s0\""
+}

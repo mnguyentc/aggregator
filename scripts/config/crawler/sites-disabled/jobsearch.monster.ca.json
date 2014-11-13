@@ -1,0 +1,5 @@
+{
+	"name":"jobsearch.monster.ca",
+	"interval":24,
+	"cmd":"httrack \"http://jobsearch.monster.ca/jobs/?cy=ca\" \"-*monster.ca*\" \"+*jobsearch.monster.ca/jobs/?pg=*\" \"+*jobview.monster.ca/*\""
+}

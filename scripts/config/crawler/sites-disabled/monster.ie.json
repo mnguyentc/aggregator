@@ -1,0 +1,5 @@
+{
+	"name":"monster.ie",
+	"interval":24,
+	"cmd":"httrack \"http://jobsearch.monster.ie/jobs/?cy=ie\" \"-*monster.ie*\" \"+*jobsearch.monster.ie/jobs/?pg=*\" \"+*jobview.monster.ie/*\""
+}

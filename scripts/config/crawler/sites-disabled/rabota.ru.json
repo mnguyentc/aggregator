@@ -1,0 +1,5 @@
+{
+	"name":"rabota.ru",
+	"interval":24,
+	"cmd":"httrack \"http://www.rabota.ru/vacancy/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/\" \"-*rabota.ru*\" \"+*rabota.ru/vacancy/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5/*[0-9].html\" \"+*rabota.ru/vacancy*[0-9].html?vac_page=view&w=*\""
+}

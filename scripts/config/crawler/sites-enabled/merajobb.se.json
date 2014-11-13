@@ -1,0 +1,5 @@
+{
+	"name":"merajobb.se",
+	"interval":24,
+	"cmd":"httrack \"http://www.merajobb.se/alla-jobb\" \"-*merajobb.se/*\" \"+*merajobb.se/Templates/pages/JobList.aspx?pageNumber=*\" \"+*merajobb.se/jobb/*\""
+}
